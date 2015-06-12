@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB8A9B01B2A9E4500DE392D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8A9AF1B2A9E4500DE392D /* main.m */; };
+		BFB8A9B31B2A9E4500DE392D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8A9B21B2A9E4500DE392D /* AppDelegate.m */; };
+		BFB8A9BB1B2A9E4500DE392D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB8A9BA1B2A9E4500DE392D /* Images.xcassets */; };
+		BFB8A9BE1B2A9E4500DE392D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8A9BC1B2A9E4500DE392D /* LaunchScreen.xib */; };
+		BFB8A9CA1B2A9E4600DE392D /* Beer_PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8A9C91B2A9E4600DE392D /* Beer_PongTests.m */; };
+		BFB8A9D81B2AA0F700DE392D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9D61B2AA0F700DE392D /* Bolts.framework */; };
+		BFB8A9D91B2AA0F700DE392D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9D71B2AA0F700DE392D /* Parse.framework */; };
+		BFB8A9DB1B2AA11800DE392D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9DA1B2AA11800DE392D /* Accounts.framework */; };
+		BFB8A9DD1B2AA12000DE392D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9DC1B2AA12000DE392D /* Social.framework */; };
+		BFB8A9DF1B2AA12700DE392D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9DE1B2AA12700DE392D /* SystemConfiguration.framework */; };
+		BFB8A9E11B2AA13100DE392D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9E01B2AA13100DE392D /* StoreKit.framework */; };
+		BFB8A9E31B2AA13800DE392D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9E21B2AA13800DE392D /* Security.framework */; };
+		BFB8A9E51B2AA14100DE392D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9E41B2AA14100DE392D /* MobileCoreServices.framework */; };
+		BFB8A9E71B2AA14900DE392D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9E61B2AA14900DE392D /* libz.dylib */; };
+		BFB8A9E91B2AA15100DE392D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9E81B2AA15100DE392D /* MapKit.framework */; };
+		BFB8A9EB1B2AA15900DE392D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9EA1B2AA15900DE392D /* CoreLocation.framework */; };
+		BFB8A9ED1B2AA16200DE392D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9EC1B2AA16200DE392D /* CoreGraphics.framework */; };
+		BFB8A9EF1B2AA16A00DE392D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9EE1B2AA16A00DE392D /* CFNetwork.framework */; };
+		BFB8A9F11B2AA17E00DE392D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9F01B2AA17E00DE392D /* AudioToolbox.framework */; };
+		BFB8A9F31B2AA18600DE392D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB8A9F21B2AA18600DE392D /* QuartzCore.framework */; };
+		BFB8A9F61B2AA20D00DE392D /* BPGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8A9F51B2AA20D00DE392D /* BPGame.m */; };
+		BFB8A9F91B2AA21B00DE392D /* BPTourney.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8A9F81B2AA21B00DE392D /* BPTourney.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB8A9C41B2A9E4600DE392D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB8A9A21B2A9E4500DE392D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB8A9A91B2A9E4500DE392D;
+			remoteInfo = "Beer Pong";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB8A9AA1B2A9E4500DE392D /* Beer Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beer Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB8A9AE1B2A9E4500DE392D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB8A9AF1B2A9E4500DE392D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB8A9B11B2A9E4500DE392D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFB8A9B21B2A9E4500DE392D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFB8A9BA1B2A9E4500DE392D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFB8A9BD1B2A9E4500DE392D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFB8A9C31B2A9E4600DE392D /* Beer PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beer PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB8A9C81B2A9E4600DE392D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB8A9C91B2A9E4600DE392D /* Beer_PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beer_PongTests.m; sourceTree = "<group>"; };
+		BFB8A9D61B2AA0F700DE392D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BFB8A9D71B2AA0F700DE392D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BFB8A9DA1B2AA11800DE392D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BFB8A9DC1B2AA12000DE392D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BFB8A9DE1B2AA12700DE392D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFB8A9E01B2AA13100DE392D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BFB8A9E21B2AA13800DE392D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFB8A9E41B2AA14100DE392D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFB8A9E61B2AA14900DE392D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BFB8A9E81B2AA15100DE392D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BFB8A9EA1B2AA15900DE392D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BFB8A9EC1B2AA16200DE392D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFB8A9EE1B2AA16A00DE392D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFB8A9F01B2AA17E00DE392D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFB8A9F21B2AA18600DE392D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFB8A9F41B2AA20D00DE392D /* BPGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGame.h; sourceTree = "<group>"; };
+		BFB8A9F51B2AA20D00DE392D /* BPGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGame.m; sourceTree = "<group>"; };
+		BFB8A9F71B2AA21B00DE392D /* BPTourney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPTourney.h; sourceTree = "<group>"; };
+		BFB8A9F81B2AA21B00DE392D /* BPTourney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPTourney.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB8A9A71B2A9E4500DE392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8A9F31B2AA18600DE392D /* QuartzCore.framework in Frameworks */,
+				BFB8A9F11B2AA17E00DE392D /* AudioToolbox.framework in Frameworks */,
+				BFB8A9EF1B2AA16A00DE392D /* CFNetwork.framework in Frameworks */,
+				BFB8A9ED1B2AA16200DE392D /* CoreGraphics.framework in Frameworks */,
+				BFB8A9EB1B2AA15900DE392D /* CoreLocation.framework in Frameworks */,
+				BFB8A9E91B2AA15100DE392D /* MapKit.framework in Frameworks */,
+				BFB8A9E71B2AA14900DE392D /* libz.dylib in Frameworks */,
+				BFB8A9E51B2AA14100DE392D /* MobileCoreServices.framework in Frameworks */,
+				BFB8A9E31B2AA13800DE392D /* Security.framework in Frameworks */,
+				BFB8A9E11B2AA13100DE392D /* StoreKit.framework in Frameworks */,
+				BFB8A9DF1B2AA12700DE392D /* SystemConfiguration.framework in Frameworks */,
+				BFB8A9DD1B2AA12000DE392D /* Social.framework in Frameworks */,
+				BFB8A9DB1B2AA11800DE392D /* Accounts.framework in Frameworks */,
+				BFB8A9D91B2AA0F700DE392D /* Parse.framework in Frameworks */,
+				BFB8A9D81B2AA0F700DE392D /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8A9C01B2A9E4600DE392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB8A9A11B2A9E4500DE392D = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9AC1B2A9E4500DE392D /* Beer Pong */,
+				BFB8A9C61B2A9E4600DE392D /* Beer PongTests */,
+				BFB8A9AB1B2A9E4500DE392D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB8A9AB1B2A9E4500DE392D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9AA1B2A9E4500DE392D /* Beer Pong.app */,
+				BFB8A9C31B2A9E4600DE392D /* Beer PongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB8A9AC1B2A9E4500DE392D /* Beer Pong */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9D51B2AA0E500DE392D /* Model */,
+				BFB8A9D41B2AA0DD00DE392D /* Resources */,
+				BFB8A9D31B2AA0D300DE392D /* Frameworks */,
+				BFB8A9B11B2A9E4500DE392D /* AppDelegate.h */,
+				BFB8A9B21B2A9E4500DE392D /* AppDelegate.m */,
+				BFB8A9BA1B2A9E4500DE392D /* Images.xcassets */,
+				BFB8A9BC1B2A9E4500DE392D /* LaunchScreen.xib */,
+				BFB8A9AD1B2A9E4500DE392D /* Supporting Files */,
+			);
+			path = "Beer Pong";
+			sourceTree = "<group>";
+		};
+		BFB8A9AD1B2A9E4500DE392D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9AE1B2A9E4500DE392D /* Info.plist */,
+				BFB8A9AF1B2A9E4500DE392D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB8A9C61B2A9E4600DE392D /* Beer PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9C91B2A9E4600DE392D /* Beer_PongTests.m */,
+				BFB8A9C71B2A9E4600DE392D /* Supporting Files */,
+			);
+			path = "Beer PongTests";
+			sourceTree = "<group>";
+		};
+		BFB8A9C71B2A9E4600DE392D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9C81B2A9E4600DE392D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB8A9D31B2AA0D300DE392D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9F21B2AA18600DE392D /* QuartzCore.framework */,
+				BFB8A9F01B2AA17E00DE392D /* AudioToolbox.framework */,
+				BFB8A9EE1B2AA16A00DE392D /* CFNetwork.framework */,
+				BFB8A9EC1B2AA16200DE392D /* CoreGraphics.framework */,
+				BFB8A9EA1B2AA15900DE392D /* CoreLocation.framework */,
+				BFB8A9E81B2AA15100DE392D /* MapKit.framework */,
+				BFB8A9E61B2AA14900DE392D /* libz.dylib */,
+				BFB8A9E41B2AA14100DE392D /* MobileCoreServices.framework */,
+				BFB8A9E21B2AA13800DE392D /* Security.framework */,
+				BFB8A9E01B2AA13100DE392D /* StoreKit.framework */,
+				BFB8A9DE1B2AA12700DE392D /* SystemConfiguration.framework */,
+				BFB8A9DC1B2AA12000DE392D /* Social.framework */,
+				BFB8A9DA1B2AA11800DE392D /* Accounts.framework */,
+				BFB8A9D61B2AA0F700DE392D /* Bolts.framework */,
+				BFB8A9D71B2AA0F700DE392D /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB8A9D41B2AA0DD00DE392D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BFB8A9D51B2AA0E500DE392D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8A9F41B2AA20D00DE392D /* BPGame.h */,
+				BFB8A9F51B2AA20D00DE392D /* BPGame.m */,
+				BFB8A9F71B2AA21B00DE392D /* BPTourney.h */,
+				BFB8A9F81B2AA21B00DE392D /* BPTourney.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB8A9A91B2A9E4500DE392D /* Beer Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB8A9CD1B2A9E4600DE392D /* Build configuration list for PBXNativeTarget "Beer Pong" */;
+			buildPhases = (
+				BFB8A9A61B2A9E4500DE392D /* Sources */,
+				BFB8A9A71B2A9E4500DE392D /* Frameworks */,
+				BFB8A9A81B2A9E4500DE392D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beer Pong";
+			productName = "Beer Pong";
+			productReference = BFB8A9AA1B2A9E4500DE392D /* Beer Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB8A9C21B2A9E4600DE392D /* Beer PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB8A9D01B2A9E4600DE392D /* Build configuration list for PBXNativeTarget "Beer PongTests" */;
+			buildPhases = (
+				BFB8A9BF1B2A9E4600DE392D /* Sources */,
+				BFB8A9C01B2A9E4600DE392D /* Frameworks */,
+				BFB8A9C11B2A9E4600DE392D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB8A9C51B2A9E4600DE392D /* PBXTargetDependency */,
+			);
+			name = "Beer PongTests";
+			productName = "Beer PongTests";
+			productReference = BFB8A9C31B2A9E4600DE392D /* Beer PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB8A9A21B2A9E4500DE392D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Dylan and Branden";
+				TargetAttributes = {
+					BFB8A9A91B2A9E4500DE392D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BFB8A9C21B2A9E4600DE392D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BFB8A9A91B2A9E4500DE392D;
+					};
+				};
+			};
+			buildConfigurationList = BFB8A9A51B2A9E4500DE392D /* Build configuration list for PBXProject "Beer Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB8A9A11B2A9E4500DE392D;
+			productRefGroup = BFB8A9AB1B2A9E4500DE392D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB8A9A91B2A9E4500DE392D /* Beer Pong */,
+				BFB8A9C21B2A9E4600DE392D /* Beer PongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB8A9A81B2A9E4500DE392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8A9BE1B2A9E4500DE392D /* LaunchScreen.xib in Resources */,
+				BFB8A9BB1B2A9E4500DE392D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8A9C11B2A9E4600DE392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB8A9A61B2A9E4500DE392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8A9B31B2A9E4500DE392D /* AppDelegate.m in Sources */,
+				BFB8A9F61B2AA20D00DE392D /* BPGame.m in Sources */,
+				BFB8A9F91B2AA21B00DE392D /* BPTourney.m in Sources */,
+				BFB8A9B01B2A9E4500DE392D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB8A9BF1B2A9E4600DE392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8A9CA1B2A9E4600DE392D /* Beer_PongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB8A9C51B2A9E4600DE392D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB8A9A91B2A9E4500DE392D /* Beer Pong */;
+			targetProxy = BFB8A9C41B2A9E4600DE392D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB8A9BC1B2A9E4500DE392D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB8A9BD1B2A9E4500DE392D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB8A9CB1B2A9E4600DE392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFB8A9CC1B2A9E4600DE392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB8A9CE1B2A9E4600DE392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Beer",
+					Pong,
+				);
+				INFOPLIST_FILE = "Beer Pong/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFB8A9CF1B2A9E4600DE392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Beer",
+					Pong,
+				);
+				INFOPLIST_FILE = "Beer Pong/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFB8A9D11B2A9E4600DE392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beer PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beer Pong.app/Beer Pong";
+			};
+			name = Debug;
+		};
+		BFB8A9D21B2A9E4600DE392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beer PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beer Pong.app/Beer Pong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB8A9A51B2A9E4500DE392D /* Build configuration list for PBXProject "Beer Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB8A9CB1B2A9E4600DE392D /* Debug */,
+				BFB8A9CC1B2A9E4600DE392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB8A9CD1B2A9E4600DE392D /* Build configuration list for PBXNativeTarget "Beer Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB8A9CE1B2A9E4600DE392D /* Debug */,
+				BFB8A9CF1B2A9E4600DE392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB8A9D01B2A9E4600DE392D /* Build configuration list for PBXNativeTarget "Beer PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB8A9D11B2A9E4600DE392D /* Debug */,
+				BFB8A9D21B2A9E4600DE392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB8A9A21B2A9E4500DE392D /* Project object */;
+}
